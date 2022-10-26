@@ -11,7 +11,6 @@ As discussed earlier, plugins are used to extend Maven’s core functionality.
 Each plugin consists of **goals**. A goal is an action taken on the project as
 defined by the POM file.
 
-![Maven goals](https://curriculum-content.s3.amazonaws.com/java-mod-5/maven-goals.png)
 
 ## Examining Plugin Goals
 
@@ -23,7 +22,7 @@ mvn help:describe -Dplugin=org.apache.maven.plugins:maven-compiler-plugin
 
 Here’s the output:
 
-```plaintext
+```text
 Name: Apache Maven Compiler Plugin
 Description: The Compiler Plugin is used to compile the sources of your
   project.
